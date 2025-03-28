@@ -98,6 +98,10 @@ function renderSchedule(data) {
                             return `<a href="linkedPage.html?groupId=${link}&week=${currentWeek}" class="me-1">${g}</a>`;
                   }).join(' ');
                 }
+                else
+                {
+                  groupsHtml = pair.subgroup.join(', ');
+                }
                 let teacherLink = "";
                 if(pair.teacherLink != "")
                 {
