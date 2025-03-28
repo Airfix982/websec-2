@@ -1,0 +1,27 @@
+.schedule-cell {
+    min-height: 80px;
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid #dee2e6;
+}
+  
+.double-height {
+min-height: 160px;
+}
+  
+.schedule-header {
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+.cursor-pointer {
+cursor: pointer;
+}
+
+th, td {
+width: 14.2%; 
+}
+th:first-child, td:first-child {
+width: 10%;
+}
+
