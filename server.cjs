@@ -2,7 +2,7 @@ const express = require('express');
 const { parseSchedule, parseTeacherSchedule } = require('./parser.cjs');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 app.use(express.static('public'));
 
